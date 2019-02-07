@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+*{
+  font-family: 'Mukta',  sans-serif;
+  box-sizing: border-box;
+}
+
+.Link >a > img {
+  float: left;
+  height: 50px;
+  margin: auto;
+}
+
+.Link >a{
+  display: inline-block;
+  width: 400px;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  left: 30px;
+}
+
+a > div {
+  max-width: 300px;
+  float: left;
+  /* border: red solid 1px; */
+  padding: 2px auto 5px 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.Link{
+  /* border: black solid 1px; */
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px 5px;
+  border-radius: 50px;
+  position: relative;
+  background: #CAD5CA;
+  box-shadow: 5px 5px;
+  z-index: 1;
+}
+
+.Link >a >div >p{
+  /*border: green dotted 1px;*/
+  text-align: left;
+  padding-left: 5px;
+  margin: 0;
+  padding: 0px 10px;  
+  color: #6320EE;
+}
+
+body{
+  background: #272727;
+}
+
+.type{
+  font-size: 10px;
+}
+
+.Link:hover{
+  background: #F8F0FB;
+}
+
+@media screen and (max-width:425px){
+  .Link{
+    font-size: 12px;
+    max-width: 300px;
+  }
+
+  .Link> a{
+    width: 300px;
+  }
+
+  a> div{
+    max-width: 190px;
+  }
+}
