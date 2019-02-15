@@ -4,9 +4,9 @@ It's a simple React Web App that uses the open movie database api to search for 
 
 A pet project to learn more about how React works.
 
-Requirements:
-1. Node.js
-2. npm
+######Requirements:
+- Node.js
+- npm
 
 Steps to run locally:
 1. Download or clone the repo to your machine
