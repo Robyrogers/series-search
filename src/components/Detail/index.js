@@ -1,6 +1,14 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import whyDidYouRender from '@welldone-software/why-did-you-render'
+
 import "./style.css"
+
+whyDidYouRender(React, {
+  onlyLogs: true,
+  titleColor: "green",
+  diffNameColor: "aqua"
+})
 
 function Detail(props) {
   return (
@@ -30,5 +38,7 @@ function Detail(props) {
     </React.Fragment>
   )
 }
+
+Detail.whyDidYouRender = true
 
 export default Detail

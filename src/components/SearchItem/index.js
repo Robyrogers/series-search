@@ -1,6 +1,14 @@
-import React from "react"
+import React, {memo} from "react"
 import { Link } from "react-router-dom"
+import whyDidYouRender from '@welldone-software/why-did-you-render'
+
 import "./style.css"
+
+whyDidYouRender(React, {
+  onlyLogs: true,
+  titleColor: "green",
+  diffNameColor: "aqua"
+})
 
 function SearchItem(props) {
   return (
@@ -16,4 +24,6 @@ function SearchItem(props) {
   )
 }
 
-export default SearchItem
+SearchItem.whyDidYouRender = true
+
+export default memo(SearchItem)
