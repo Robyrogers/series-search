@@ -7,6 +7,8 @@ A pet project to learn more about how React works.
 ###### Things I have learned:
 - React basics (components, props, etc.)
 - React Lifecycle methods
+- React Hooks
+- React useEffect
 - React Router Basics
 - Processing json data through the fetch call
 
